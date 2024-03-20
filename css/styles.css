@@ -1,54 +1,66 @@
-/* For Navigation */
 #main-navbar {
-    background-color: blue;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  background-color: blue;
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
 }
 
 #main-navbar ul {
-    position: relative;
-    left: 50%;
-    float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
 }
 
 #main-navbar ul li {
-    position: relative;
-    right: 50%;
-    float: left;
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
 }
 
 #main-navbar ul li a {
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    background-color: #000;
-    text-decoration: underline overline;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
 }
 
-/* For Sidebar */
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+
 #sidebar {
-    position: fixed;
-    right:0%;
-    background-color: red;
-    height: 100%;
-    width: 20%;
+  position: fixed;
+  right:0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
 }
 
 #sidebar ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 
 #sidebar ul li a {
-    display: block;
-    padding: 15px 0;
-    color: #fff;
-    text-decoration: none;
-    background-color: #000;
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
 }
