@@ -1,18 +1,27 @@
 /* For Navigation */
-nav {
+#main-navbar {
     background-color: blue;
     overflow: hidden;
-    float: left;
     width: 100%;
     position: relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+#main-navbar ul {
     position: relative;
     left: 50%;
     float: left;
+}
+
+#main-navbar ul li {
     position: relative;
     right: 50%;
+    float: left;
+}
+
+#main-navbar ul li a {
     display: block;
     padding: 10px 20px;
     color: #fff;
@@ -22,15 +31,21 @@ nav {
 }
 
 /* For Sidebar */
-aside {
+#sidebar {
     position: fixed;
     right:0%;
     background-color: red;
     height: 100%;
     width: 20%;
+}
+
+#sidebar ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
+}
+
+#sidebar ul li a {
     display: block;
     padding: 15px 0;
     color: #fff;
